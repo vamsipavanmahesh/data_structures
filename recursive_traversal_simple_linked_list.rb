@@ -24,3 +24,18 @@ def rprint(head)
 end
 
 rprint(head)
+
+
+#### tracing the program
+
+# rprint(head)
+#   -> puts head.value #=> 10
+#     rprint(second)
+#       -> puts head.value #=> 20
+#       rprint(third)
+#         -> puts head.value # 30
+#         rprint(nil)
+#         -> return
+#       -> return
+#     -> return
+#   -> return
